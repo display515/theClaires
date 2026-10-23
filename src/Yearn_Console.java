@@ -1,11 +1,6 @@
 import java.util.InputMismatchException;
 import java.util.LinkedHashMap;
 import java.util.Scanner;
-import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.control.Label;
-import javafx.scene.layout.StackPane;
-import javafx.stage.Stage;
 
 public class Yearn_Console{
     private static final Scanner insertUserInput = new Scanner(System.in);
