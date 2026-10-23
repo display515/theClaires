@@ -13,9 +13,12 @@ public class App extends Application {
 
     @Override
     public void start(Stage yearnStageInterface) throws Exception {
+        StackPane yearnStack = new StackPane();
+        Scene yearnScene = new Scene(yearnStack, 440, 440);
+        
         yearnStageInterface.setTitle("Yearn");
         
-        yearnStageInterface.setScene(scene);
+        yearnStageInterface.setScene(yearnScene);
         yearnStageInterface.show();
     }
 
